@@ -1,9 +1,9 @@
-React Ant Design Image Gallery and Profile Tabs App
+**React Ant Design Image Gallery and Profile Tabs App**
 
 
 This is a simple React application using Ant Design for building a responsive UI, which includes two main widgets: a profile section with tabs (About Me, Experience, and Recommended) and an image gallery with the ability to upload images.
 
-Features
+**Features**
 Responsive Design for laptop screens (above 768px)
 Profile widget with clickable tabs (About Me, Experience, and Recommended)
 Image gallery with an option to upload and preview images
@@ -17,7 +17,7 @@ CSS: Custom styles for layout and responsiveness
 FileReader API: For image preview functionality
 
 
-Prerequisites
+**Prerequisites**
 
 Before you can run this project, ensure that you have the following tools installed:
 
@@ -28,13 +28,16 @@ You can download Node.js from here.
 Git (optional, for cloning the repository)
 
 
-Project Structure 
+**Explore the App**
+On larger screens (above 768px), the right-hand side of the screen will show two main widgets:
 
-├── public/
-│   ├── index.html  # Main HTML file
-├── src/
-│   ├── App.js      # Main application component
-│   ├── App.css     # Custom CSS for additional styling
-│   ├── index.js    # Entry point for the React application
-├── package.json    # Project dependencies and scripts
+Profile Widget:
+Contains three tabs: About Me, Experience, and Recommended, each displaying different content.
+Gallery Widget:
+Displays a gallery of images, where you can upload new images by clicking the Add Image button.
+The left side of the screen will be left empty for larger screens but will disappear for smaller screens.
+
+**Notes**
+If you encounter any issues while running the project, feel free to open an issue or reach out for help.
+Enjoy the app!
 
